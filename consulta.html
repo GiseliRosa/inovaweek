@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="consulta.css">
+    <title>PortalLaw</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo PortalLaw" width="150">
+                </a>
+            </div>
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="consulta.html">consultoria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="profile-icon">
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/64/64572.png" alt="Ícone de Perfil" width="60">
+            </a>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="container">
+        <form id="consulta-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+        
+        <div id="agradecimento" class="hidden">
+            <p>Obrigado por enviar sua solicitação! Entraremos em contato em breve.</p>
+            <p>Por favor, aguarde enquanto você é redirecionado para a página inicial.</p>
+        </div>
+    </div>
+
+    <script src="consulta.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            &copy; 2023 PortalLaw. Todos os direitos reservados.
+        </div>
+    </footer>
+    
+    <div class="whatsapp-button">
+        <a href="https://api.whatsapp.com/send?phone=SEU_NUMERO_DE_TELEFONE" target="_blank">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-whatsapp-2254775-1881161.png" alt="WhatsApp" width="50" height="50">
+        </a>
+    </div>
+    
+    
+</body>
+</html>

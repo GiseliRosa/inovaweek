@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #DAD4C6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+header {
+    background-color: #143429;
+    color: #F0EDE8;
+    padding: 1; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #F0EDE8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #DAD4C6;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.profile-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-icon img {
+    width: 60px;
+    height: auto;
+    transition: background-color 0.3s;
+}
+
+.footer-content {
+    background-color: #143429;
+    padding: 20px;
+    text-align: center;
+    color: #F0EDE8;
+}
+
+.footer-content a {
+    color: #F0EDE8;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #143429;
+    padding: 20px;
+    text-align: center;
+    color: #F0EDE8;
+    margin-top: auto; 
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: justify; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; 
+}
+
+.whatsapp-button a {
+    display: block;
+    background-color: #25d366; 
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button a:hover {
+    background-color: #128C7E; 
+}
